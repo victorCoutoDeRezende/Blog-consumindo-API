@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #aafafa;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #008080;
+    border-radius: 20px;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    font-size: small;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008080;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+a, input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008080;
+    color: #fffafa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+a, input[type="submit"]:hover{
+    opacity: 1;
+}
+
+#posts-container, form{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #fffafa;
+}
+
+#posts-container .id{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #008080;
+}
+#posts-container .post-content{
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+#posts-container .post{
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+form label{
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+form input, form textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding: 5px;
+}
